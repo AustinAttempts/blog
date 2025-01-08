@@ -6,14 +6,15 @@
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jan 2025 17:49:19 -0800</lastBuildDate>
     <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My 1st post</title>
-      <link>https://example.org/page/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
-      <guid>https://example.org/page/</guid>
-      <description>Desc Text.</description>
+      <title>Default</title>
+      <link>https://example.org/default/</link>
+      <pubDate>Tue, 07 Jan 2025 17:49:19 -0800</pubDate>
+      <guid>https://example.org/default/</guid>
+      <description>&lt;h2 id=&#34;test&#34;&gt;Test&lt;/h2&gt;
+&lt;p&gt;This is a test file&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
