@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Austin Attempts</title>
-    <link>https://austinguevara.com/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Austin Attempts</description>
     <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 08 Jan 2025 14:53:59 -0800</lastBuildDate>
-    <atom:link href="https://austinguevara.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First Post</title>
-      <link>https://austinguevara.com/posts/first-post/</link>
+      <link>http://localhost:1313/posts/first-post/</link>
       <pubDate>Wed, 08 Jan 2025 14:53:59 -0800</pubDate>
-      <guid>https://austinguevara.com/posts/first-post/</guid>
+      <guid>http://localhost:1313/posts/first-post/</guid>
       <description>&lt;h2 id=&#34;sub-title&#34;&gt;sub-title&lt;/h2&gt;
 &lt;p&gt;this is a practice first post&lt;/p&gt;</description>
     </item>
