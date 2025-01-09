@@ -1,4 +1,47 @@
-baseURL: https://example.org/
+baseURL: https://austinguevara.com/
 languageCode: en-us
-title: My New Hugo Site
+title: Austin Attempts
 theme: ["PaperMod"]
+params:
+  defualtTheme: auto
+
+  profileMode:
+    enabled: true
+    title: "Austin Attempts"
+    imageUrl: "profile_pic.webp"
+    imageTitle: ProfileMode image
+    imageWidth: 120
+    imageHeight: 120
+    buttons:
+      - name: "search posts"
+        url: "/search/"
+
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/AustinAttempts"
+    - name: "X"
+      url: "https://x.com/austin_guevara"
+    - name: "instagram"
+      url: "https://www.instagram.com/austin_a_guevara/"
+    - name: "goodreads"
+      url: "https://www.goodreads.com/user/show/169781030-austin-guevara"
+    - name: "letterboxd"
+      url:  "https://letterboxd.com/austinag/"
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
+
+menu:
+  main:
+    - name: "Home"
+      url: "/"
+      weight: 1
+    - name: "Bio"
+      url: "/bio/"
+      weight: 2
+    - name: "Search"
+      url: "/search/"
+      weigth: 3

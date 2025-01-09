@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Austin Attempts</title>
-    <link>https://austinguevara.com/</link>
-    <description>Recent content on Austin Attempts</description>
+    <title>Posts on Austin Attempts</title>
+    <link>https://austinguevara.com/posts/</link>
+    <description>Recent content in Posts on Austin Attempts</description>
     <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Jan 2025 16:34:49 -0800</lastBuildDate>
-    <atom:link href="https://austinguevara.com/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Bio</title>
-      <link>https://austinguevara.com/bio/</link>
-      <pubDate>Wed, 08 Jan 2025 16:34:49 -0800</pubDate>
-      <guid>https://austinguevara.com/bio/</guid>
-      <description>&lt;p&gt;This will be my bio&lt;/p&gt;</description>
-    </item>
+    <lastBuildDate>Wed, 08 Jan 2025 14:53:59 -0800</lastBuildDate>
+    <atom:link href="https://austinguevara.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First Post</title>
       <link>https://austinguevara.com/posts/first-post/</link>

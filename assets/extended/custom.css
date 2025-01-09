@@ -1,0 +1,26 @@
+#dynamicWord {
+    text-decoration: underline;
+    color: inherit;
+    display: inline-block;
+}
+
+#cursor {
+    display: inline-block;
+    width: 2px; /* Cursor width */
+    height: 1em; /* Matches the text height */
+    background-color: currentColor; /* Cursor color */
+    vertical-align: middle; /* Aligns cursor with text */
+    animation: blinkCursor 0.8s steps(2) infinite;
+}
+
+@keyframes blinkCursor {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
