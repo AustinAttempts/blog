@@ -3,6 +3,7 @@ languageCode: en-us
 title: Austin Attempts
 theme: ["PaperMod"]
 params:
+  author: "Austin Guevara"
   defualtTheme: auto
 
   profileMode:
@@ -28,6 +29,9 @@ params:
     - name: "letterboxd"
       url:  "https://letterboxd.com/austinag/"
 
+  assets:
+    disableHLJS: true
+
 outputs:
   home:
     - HTML
@@ -36,12 +40,30 @@ outputs:
 
 menu:
   main:
-    - name: "Home"
-      url: "/"
+    - name: "Blog"
+      url: "/posts"
       weight: 1
     - name: "Bio"
-      url: "/bio/"
+      url: "/bio/bio/"
       weight: 2
     - name: "Search"
       url: "/search/"
       weigth: 3
+
+markup:
+  highlight:
+    # anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    # noClasses: false
+    style: monokai
+  goldmark:
+    extensions:
+      footnote: true
+    renderer:
+      unsafe: true
+
+author:
+  name: "Austin Guevara"
+
