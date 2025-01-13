@@ -7,11 +7,11 @@ searchHidden: true
 I am an Embedded Software Engineer by trade, a Mechanical Engineer by degree, and a less than average tinkerer by hobby.  I have plenty of hobbies and figured I would use this site as a catchall where I can document everything I do.  I'm not quite sure what this will become but for now it is a fun project to keep track of what I do as the new year begins.
 
 ## Education
-<img src="/graduation.jpg#center" alt="graduation pic" width="250" height="300">
+<img src="/imgs/bio/graduation.jpg#center" alt="graduation pic" width="250" height="300">
 
 From 2016 - 2021 I attended Virginia Tech where I recieved a BS in Mechnical Engineering.  During my time I managed to take sprinkle in some beginner Computer Science classes as I gained an intrest on the topic.  My inital goal was in pursuit of the robotics field and due to this I participated in under-grad research for [FASER Lab](https://faser.me.vt.edu/).  Under the sueprvision of Dr. Komendera and the grad students in the Lab I quickly got introduced to so much more than I had yet to learn in any class and simultaneously realized how much I still had to learn.  
 
-<img src="/senior_design.jpg#center" alt="graduation pic" width="250" height="300">
+<img src="/imgs/bio/senior_design.jpg#center" alt="graduation pic" width="250" height="300">
 
 A major part of the M.E. curriculum was the capstone project during your final year.  The goal of my project was to test the impact and functionlaity a 5th appendage could add to a quadruped robot, specifically in the concern of stability (*we added a tail to a robot dog*).  I was voted the leader for our team and was the sole software developer.  It was difficult but I am extremly happy that in the span of one academic year we were able to design, build, and test a quadruped with an extra linkage that future teams can use in experiments.
 

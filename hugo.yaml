@@ -9,7 +9,7 @@ params:
   profileMode:
     enabled: true
     title: "Austin Attempts"
-    imageUrl: "profile_pic.webp"
+    imageUrl: "/imgs/profile_pic.webp"
     imageTitle: ProfileMode image
     imageWidth: 120
     imageHeight: 120
@@ -44,7 +44,7 @@ menu:
       url: "/posts"
       weight: 1
     - name: "Bio"
-      url: "/bio/bio/"
+      url: "/bio/"
       weight: 2
     - name: "Search"
       url: "/search/"
