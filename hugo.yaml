@@ -16,14 +16,12 @@ params:
     buttons:
       - name: "search posts"
         url: "/search/"
+      - name: "resume"
+        url: "/austin_guevara_resume.pdf"
 
   socialIcons:
     - name: "github"
       url: "https://github.com/AustinAttempts"
-    - name: "X"
-      url: "https://x.com/austin_guevara"
-    - name: "instagram"
-      url: "https://www.instagram.com/austin_a_guevara/"
     - name: "goodreads"
       url: "https://www.goodreads.com/user/show/169781030-austin-guevara"
     - name: "letterboxd"

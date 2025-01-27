@@ -2,22 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://austinguevara.com/</loc>
+    <lastmod>2025-01-27T14:53:18-08:00</lastmod>
+  </url><url>
+    <loc>https://austinguevara.com/posts/making-a-ring/</loc>
+    <lastmod>2025-01-27T14:53:18-08:00</lastmod>
+  </url><url>
+    <loc>https://austinguevara.com/posts/</loc>
+    <lastmod>2025-01-27T14:53:18-08:00</lastmod>
+  </url><url>
+    <loc>https://austinguevara.com/bio/</loc>
     <lastmod>2025-01-08T16:34:49-08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/bio/</loc>
-    <lastmod>2025-01-08T16:34:49-08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/writing-a-blog/</loc>
+    <loc>https://austinguevara.com/posts/writing-a-blog/</loc>
     <lastmod>2025-01-08T14:53:59-08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-01-08T14:53:59-08:00</lastmod>
+    <loc>https://austinguevara.com/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://austinguevara.com/search/</loc>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://austinguevara.com/tags/</loc>
   </url>
 </urlset>
