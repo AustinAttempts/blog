@@ -71,7 +71,7 @@ log.Fatal(http.ListenAndServe(":8080", mux))
 
 Great, it’s working! Now what? Well, aside from the lack of features, there’s one major issue: I need to host a server somewhere that can handle all the functionality mentioned above. This setup works perfectly for development and testing on my home setup, but how can I make the site accessible to the public?
 
-### WIP... 
-
+## HUGO
+This blog is still a work in progress.  I am still adding things so this post needs to grow with it
 
 [^1]: Advent of Code was an extremely fun experience, and I’ll likely dedicate a series of posts to these puzzles.
