@@ -14,8 +14,8 @@ params:
     imageWidth: 120
     imageHeight: 120
     buttons:
-      - name: "search posts"
-        url: "/search/"
+      - name: "blog"
+        url: "/posts/"
       - name: "resume"
         url: "/austin_guevara_resume.pdf"
 
