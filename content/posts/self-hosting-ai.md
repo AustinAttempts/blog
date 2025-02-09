@@ -5,7 +5,7 @@ author: ["Austin Guevara"]
 type: "post"
 ---
 ## AI Hype 🚀
-Over the past year AI hype, specifically LLMs, has gotten out of hand.  With the cultral populatiry of OpenAI and the general leap in sucess the space has seen in the past couple of years this hype isn't unfounded.  People who are not even technology adjacent are now quickly realizng the potential this advancment has to displace jobs on a scale not seen since the industrial revolution.  This is causing a rush by practically every industry to be at the forefront of these developments.  
+Over the past year AI hype has gotten out of hand.  With the cultral populatiry of OpenAI and the general leap in sucess the space has seen in the past couple of years this hype isn't unfounded.  People outside the tech industry are increasingly recognizing how transformative these technologies can be, potentially displacing jobs on a scale similar to the Industrial Revolution. This is causing a rush by practically every industry to be at the forefront of these developments.  
 I, on the other hand, have been extremly wary of these tools.  I tried my best to avoid them unil Nordic SemiConductor added an AI assistant to their [Dev Zone](https://devzone.nordicsemi.com/).  These microcontroller companies have a ton of resources however they are spread out through forums, app notes, white papers, and data sheets.  This makes it a pain to locate and process without an FAEs help.  This was the first time I used AI and felt it was genuinly useful.  The tool would find a relevant response and do its best.  It was often wrong, however, it was close enough that somone familiar with the technology could peace together a solution.
 
 <img src="/imgs/self-hosting-ai/deepseek-color.png#center" alt="DeepSeek AI logo" width="250" height="250">
@@ -65,5 +65,5 @@ All of these steps will show error logs in the case of a failure.  If these ever
 Now that the server is up and running you can access the applicaition from ```http://localhost:8080/```
 
 ## Conclusion
-This is not running on a powerful computer so the responses are slow but it is perfect for asking a question and letting it work it out while I do somthing else. For example, this blog post was edited by my own locally hosted AI! 😃
+This is not running on a powerful computer so the responses are slow but it is perfect for asking a question and letting it work it out while I do somthing else. For example, this blog post has been edited by my own locally hosted AI! 😃
 
