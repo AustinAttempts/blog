@@ -5,12 +5,13 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Austin Attempts: Writing a Blog | Austin Attempts</title>
+<title>Austin Attempts: Self Hosting AI | Austin Attempts</title>
 <meta name="keywords" content="">
-<meta name="description" content="Why did I start this?
-Honestly, I blame this entire journey on two people: Beau and Chris. As 2024 came to an end, I decided to focus on improving my coding skills. For the first time ever, I participated in Advent of Code and to make it even more challenging, I completed it entirely in a language that was completely new to me—Zig.1 This sparked a series of tangents, including learning RayLib, attempting to create a browser-based game, and eventually diving into Go to build an HTTP server.">
+<meta name="description" content="AI Hype 🚀
+Over the past year AI hype, specifically LLMs, has gotten out of hand.  With the cultral populatiry of OpenAI and the general leap in sucess the space has seen in the past couple of years this hype isn&rsquo;t unfounded.  People who are not even technology adjacent are now quickly realizng the potential this advancment has to displace jobs on a scale not seen since the industrial revolution.  This is causing a rush by practically every industry to be at the forefront of these developments.
+I, on the other hand, have been extremly wary of these tools.  I tried my best to avoid them unil Nordic SemiConductor added an AI assistant to their Dev Zone.  These microcontroller companies have a ton of resources however they are spread out through forums, app notes, white papers, and data sheets.  This makes it a pain to locate and process without an FAEs help.  This was the first time I used AI and felt it was genuinly useful.  The tool would find a relevant response and do its best.  It was often wrong, however, it was close enough that somone familiar with the technology could peace together a solution.">
 <meta name="author" content="Austin Guevara">
-<link rel="canonical" href="http://localhost:1313/posts/writing-a-blog/">
+<link rel="canonical" href="http://localhost:1313/posts/self-hosting-ai/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.45e028aa8ce0961349adf411b013ee39406be2c0bc80d4ea3fc04555f7f4611a.css" integrity="sha256-ReAoqozglhNJrfQRsBPuOUBr4sC8gNTqP8BFVff0YRo=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
@@ -19,7 +20,7 @@ Honestly, I blame this entire journey on two people: Beau and Chris. As 2024 cam
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/writing-a-blog/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/self-hosting-ai/">
 <noscript>
     <style>
         #theme-toggle,
@@ -123,102 +124,116 @@ Honestly, I blame this entire journey on two people: Beau and Chris. As 2024 cam
   <header class="post-header">
     
     <h1 class="post-title entry-hint-parent">
-      Austin Attempts: Writing a Blog
+      Austin Attempts: Self Hosting AI
     </h1>
-    <div class="post-meta"><span title='2025-01-08 14:53:59 -0800 PST'>January 8, 2025</span>&nbsp;·&nbsp;Austin Guevara
+    <div class="post-meta"><span title='2025-02-07 16:49:31 -0800 PST'>February 7, 2025</span>&nbsp;·&nbsp;Austin Guevara
 
 </div>
   </header> 
-  <div class="post-content"><h2 id="why-did-i-start-this">Why did I start this?<a hidden class="anchor" aria-hidden="true" href="#why-did-i-start-this">#</a></h2>
-<p>Honestly, I blame this entire journey on two people: Beau and Chris. As 2024 came to an end, I decided to focus on improving my coding skills. For the first time ever, I participated in <a href="https://adventofcode.com/">Advent of Code</a> and to make it even more challenging, I completed it entirely in a language that was completely new to me—Zig.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> This sparked a series of tangents, including learning RayLib, attempting to create a browser-based game, and eventually diving into Go to build an HTTP server.</p>
-<img src="/imgs/writing-a-blog/zig_to_go_v2.png#center" alt="zig to raylib to go to ?">
-<p>While going down this rabbit hole of learning, I finally decided to download Letterboxd to start recording my opinions on every movie I watched. Our household had already taken a liking to Goodreads, and as a proud AMC A-List member, I thought it would be fun to carry that habit over to my movie-watching in the new year. That’s when Beau, my roommate, suggested that since I enjoyed sharing my opinions so much, I should just start a blog. When I mentioned this idea to my friend Chris, he pointed out that it would be a perfect project to learn a bit of web development. And so, with all of that in mind&hellip; here I am 🤷‍♂️.</p>
-<p>The idea for the blog was pretty straightforward:</p>
+  <div class="post-content"><h2 id="ai-hype-">AI Hype 🚀<a hidden class="anchor" aria-hidden="true" href="#ai-hype-">#</a></h2>
+<p>Over the past year AI hype, specifically LLMs, has gotten out of hand.  With the cultral populatiry of OpenAI and the general leap in sucess the space has seen in the past couple of years this hype isn&rsquo;t unfounded.  People who are not even technology adjacent are now quickly realizng the potential this advancment has to displace jobs on a scale not seen since the industrial revolution.  This is causing a rush by practically every industry to be at the forefront of these developments.<br>
+I, on the other hand, have been extremly wary of these tools.  I tried my best to avoid them unil Nordic SemiConductor added an AI assistant to their <a href="https://devzone.nordicsemi.com/">Dev Zone</a>.  These microcontroller companies have a ton of resources however they are spread out through forums, app notes, white papers, and data sheets.  This makes it a pain to locate and process without an FAEs help.  This was the first time I used AI and felt it was genuinly useful.  The tool would find a relevant response and do its best.  It was often wrong, however, it was close enough that somone familiar with the technology could peace together a solution.</p>
+<img src="/imgs/self-hosting-ai/deepseek-color.png#center" alt="DeepSeek AI logo" width="250" height="250">
+<p>When DeepSeek released their open source model that was comparable to the other major players I wanted to experiment which led me here&hellip;</p>
+<h2 id="ollama">Ollama<a hidden class="anchor" aria-hidden="true" href="#ollama">#</a></h2>
+<p>The open source community is amazing!  <a href="https://github.com/ollama/ollama">Ollama</a> is a tool specifically designed to host large language models (LLM) and they make it super easy. I have an old computer that I run as my lab computer and am intending to use to host from. Because of that I will be showing the Windows instructions I followed.</p>
 <ol>
-<li>I didn’t want to write a bunch of custom HTML and CSS (it just isn’t enjoyable for me).</li>
-<li>There should be a simple way for visitors to search for specific posts.</li>
-<li>Ideally, I could write my posts in Markdown.</li>
+<li>Installation
+Ollama has an easily accessible Windows download <a href="https://ollama.com/download/windows">here</a>.  Once the installation is complete run the following command to verify it worked properly.</li>
 </ol>
-<h2 id="getting-started-kinda">Getting Started&hellip; Kinda<a hidden class="anchor" aria-hidden="true" href="#getting-started-kinda">#</a></h2>
-<p>The more personal projects I’ve attempted, the more I’ve come to appreciate the truth of the saying, &lsquo;You don’t know what you don’t know.&rsquo; In both school and as a junior engineer, I took for granted how guided my efforts were at the start of a project. In those cases, someone with experience would outline the necessary steps to complete the work. Without those mentors, however, it can be daunting to figure out where to even begin.</p>
-<p>Every project I’ve attempted so far could be solved in countless ways, and to avoid being overwhelmed by the choices, I’ve made it a habit to start with whatever tools are immediately available to me. While this often leads to less efficient or outright wrong solutions, it’s a valuable learning experience. Each misstep teaches me why the decision was suboptimal, preparing me for when it’s time to pivot to a better approach.</p>
-<p>As I mentioned earlier, I had just started learning Go when this project idea came to mind, so my first attempt was, naturally, written in&hellip; Go. Using the <a href="https://go.dev/doc/articles/wiki/">writing web applications</a> guide from the Go documentation and a <a href="https://www.youtube.com/watch?v=Wx8SMT82aa8&amp;list=PLVEltXlEeWglazv9RrL-ykONIPeWawfT-">youtube series</a> focused on building a blog, I was able to get a first version up and running surprisingly quickly.</p>
-<h3 id="servemux">ServeMux<a hidden class="anchor" aria-hidden="true" href="#servemux">#</a></h3>
-<p>First, we create a <code>ServeMux</code> using Go’s standard <code>http</code> library. A <code>ServeMux</code> is an HTTP multiplexer that routes incoming requests to the appropriate handler based on the URL. It acts as a router, matching each request&rsquo;s URL to its corresponding handler function.</p>
 <div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
 <table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
 <pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#a6e22e">mux</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">NewServeMux</span>() <span style="color:#75715e">// allocates and returns a new [ServeMux].
-</span></span></span></code></pre></td></tr></table>
-</div>
-</div><h3 id="file-reader">File Reader<a hidden class="anchor" aria-hidden="true" href="#file-reader">#</a></h3>
-<p>Next, we need to process all the Markdown files containing my posts into a format that is usable. This is accomplished using <a href="https://github.com/yuin/goldmark">GoldMark</a> and <a href="https://github.com/adrg/frontmatter">FrontMatter</a> to parse each file in a specified directory. At the time, I didn’t realize how helpful it would be to understand the inner workings of GoldMark and what it was doing behind the scenes.</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#a6e22e">postReader</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">goBlog</span>.<span style="color:#a6e22e">FileReader</span>{
-</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">Dir</span>: <span style="color:#e6db74">&#34;posts&#34;</span>, <span style="color:#75715e">// local path in which to find files to parse
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>}
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ollama version
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="html-templates">HTML templates<a hidden class="anchor" aria-hidden="true" href="#html-templates">#</a></h3>
-<p>Now that we have our content parsed and organized, we can move it to a template page. This template handles the bulk of the HTML and CSS needed to make the page look presentable. It defines the layout and styling for elements like the post&rsquo;s title, author, and content, determining how and where this information is displayed on the webpage.</p>
+</div><ol start="2">
+<li>Downloading a Model
+Running the following command you will notice there are currently no models for use:</li>
+</ol>
 <div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
 <table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
 <pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#a6e22e">postTemplate</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">template</span>.<span style="color:#a6e22e">Must</span>(<span style="color:#a6e22e">template</span>.<span style="color:#a6e22e">ParseFiles</span>(<span style="color:#e6db74">&#34;post.gohtml&#34;</span>))
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ollama list
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="associate-urls">Associate URL&rsquo;s<a hidden class="anchor" aria-hidden="true" href="#associate-urls">#</a></h3>
-<p>We add each post&rsquo;s data to the previously created template and associate a handler to process the GET request for that specific URL.</p>
+</div><p>To add a model you must pull them. This can be achieved with the pull command. To get DeepSeek r1 this is the command. If you want a different model you can see the full list of available models <a href="https://ollama.com/search">here</a>.</p>
 <div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
 <table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
 <pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#a6e22e">mux</span>.<span style="color:#a6e22e">HandleFunc</span>(<span style="color:#e6db74">&#34;GET /posts/{slug}&#34;</span>, <span style="color:#a6e22e">goBlog</span>.<span style="color:#a6e22e">PostHandler</span>(<span style="color:#a6e22e">postReader</span>, <span style="color:#a6e22e">postTemplate</span>))
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ollama pull deepseek-r1
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="index-all-posts">Index all posts<a hidden class="anchor" aria-hidden="true" href="#index-all-posts">#</a></h3>
-<p>With all posts made and given a URL we now need a landing page.  This landing page has its own template file and can display whatever I want.</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#a6e22e">indexTemplate</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">template</span>.<span style="color:#a6e22e">Must</span>(<span style="color:#a6e22e">template</span>.<span style="color:#a6e22e">ParseFiles</span>(<span style="color:#e6db74">&#34;index.gohtml&#34;</span>))
-</span></span><span style="display:flex;"><span><span style="color:#a6e22e">mux</span>.<span style="color:#a6e22e">HandleFunc</span>(<span style="color:#e6db74">&#34;GET /&#34;</span>, <span style="color:#a6e22e">goBlog</span>.<span style="color:#a6e22e">IndexHandler</span>(<span style="color:#a6e22e">postReader</span>, <span style="color:#a6e22e">indexTemplate</span>))
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h3 id="run-site">Run Site<a hidden class="anchor" aria-hidden="true" href="#run-site">#</a></h3>
-<p>With all the functionality in place, we can now run the server locally on port 8080.</p>
+</div><p>This installation can take a while but once complete you can re-run the list command to verify the model is accessible</p>
+<ol start="3">
+<li>Run it
+Thats it! That is all the steps required you can simply run the model with the following command and it will open a shell in which you can type prompts and view responses.</li>
+</ol>
 <div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
 <table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
 <pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">Fatal</span>(<span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">ListenAndServe</span>(<span style="color:#e6db74">&#34;:8080&#34;</span>, <span style="color:#a6e22e">mux</span>))
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ollama run deepseek-r1
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>Great, it’s working! Now what? Well, aside from the lack of features, there’s one major issue: I need to host a server somewhere that can handle all the functionality mentioned above. This setup works perfectly for development and testing on my home setup, but how can I make the site accessible to the public?</p>
-<h3 id="wip">WIP&hellip;<a hidden class="anchor" aria-hidden="true" href="#wip">#</a></h3>
-<div class="footnotes" role="doc-endnotes">
-<hr>
+</div><h2 id="open-webui">Open-WebUI<a hidden class="anchor" aria-hidden="true" href="#open-webui">#</a></h2>
+<p>Now that the model is running lets make it easier to use and better looking than a CLI.  <a href="https://docs.openwebui.com/">Open WebUI</a> is a tool for hosting Ollama and other models through their APIs.  This will allow us to access our DeepSeek instance anywhere on my local network in a more presentable web insterface.</p>
+<p>To begin there are a few options for installation and setup.  I chose the python steps but their documentation suggests using the Docker Image.  I should note it is important to update your Python3and pip installation to the latest version before continuing.</p>
 <ol>
-<li id="fn:1">
-<p>Advent of Code was an extremely fun experience, and I’ll likely dedicate a series of posts to these puzzles.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
+<li>Create a virtual environment</li>
 </ol>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>python -m venv ~/open-webui-venv
+</span></span></code></pre></td></tr></table>
 </div>
+</div><ol start="2">
+<li>Activate the virtual environment</li>
+</ol>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>~/open-webui-venv/Scripts/Activate.Ps1
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="3">
+<li>Install Open WebUI</li>
+</ol>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>pip install open-webui
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="4">
+<li>Start the Server</li>
+</ol>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>open-webui serve
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>All of these steps will show error logs in the case of a failure.  If these ever occur they can be easily remediated by just reading the error and doing what is suggests.</p>
+<p>Now that the server is up and running you can access the applicaition from <code>http://localhost:8080/</code></p>
+<h2 id="conclusion">Conclusion<a hidden class="anchor" aria-hidden="true" href="#conclusion">#</a></h2>
+<p>This is not running on a powerful computer so the responses are slow but it is perfect for asking a question and letting it work it out while I do somthing else. For example, this blog post was edited by my own locally hosted AI! 😃</p>
 
 
   </div>

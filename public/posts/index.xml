@@ -2,24 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Austin Attempts</title>
-    <link>https://austinguevara.com/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Austin Attempts</description>
     <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Jan 2025 14:53:18 -0800</lastBuildDate>
-    <atom:link href="https://austinguevara.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 07 Feb 2025 16:49:31 -0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Austin Attempts: Self Hosting AI</title>
+      <link>http://localhost:1313/posts/self-hosting-ai/</link>
+      <pubDate>Fri, 07 Feb 2025 16:49:31 -0800</pubDate>
+      <guid>http://localhost:1313/posts/self-hosting-ai/</guid>
+      <description>&lt;h2 id=&#34;ai-hype-&#34;&gt;AI Hype 🚀&lt;/h2&gt;
+&lt;p&gt;Over the past year AI hype, specifically LLMs, has gotten out of hand.  With the cultral populatiry of OpenAI and the general leap in sucess the space has seen in the past couple of years this hype isn&amp;rsquo;t unfounded.  People who are not even technology adjacent are now quickly realizng the potential this advancment has to displace jobs on a scale not seen since the industrial revolution.  This is causing a rush by practically every industry to be at the forefront of these developments.&lt;br&gt;
+I, on the other hand, have been extremly wary of these tools.  I tried my best to avoid them unil Nordic SemiConductor added an AI assistant to their &lt;a href=&#34;https://devzone.nordicsemi.com/&#34;&gt;Dev Zone&lt;/a&gt;.  These microcontroller companies have a ton of resources however they are spread out through forums, app notes, white papers, and data sheets.  This makes it a pain to locate and process without an FAEs help.  This was the first time I used AI and felt it was genuinly useful.  The tool would find a relevant response and do its best.  It was often wrong, however, it was close enough that somone familiar with the technology could peace together a solution.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Austin Attempts: Making a Wedding Ring</title>
-      <link>https://austinguevara.com/posts/making-a-ring/</link>
+      <link>http://localhost:1313/posts/making-a-ring/</link>
       <pubDate>Mon, 27 Jan 2025 14:53:18 -0800</pubDate>
-      <guid>https://austinguevara.com/posts/making-a-ring/</guid>
+      <guid>http://localhost:1313/posts/making-a-ring/</guid>
       <description>&lt;h2 id=&#34;coming-soon&#34;&gt;Coming Soon&amp;hellip;&lt;/h2&gt;</description>
     </item>
     <item>
       <title>Austin Attempts: Writing a Blog</title>
-      <link>https://austinguevara.com/posts/writing-a-blog/</link>
+      <link>http://localhost:1313/posts/writing-a-blog/</link>
       <pubDate>Wed, 08 Jan 2025 14:53:59 -0800</pubDate>
-      <guid>https://austinguevara.com/posts/writing-a-blog/</guid>
+      <guid>http://localhost:1313/posts/writing-a-blog/</guid>
       <description>&lt;h2 id=&#34;why-did-i-start-this&#34;&gt;Why did I start this?&lt;/h2&gt;
 &lt;p&gt;Honestly, I blame this entire journey on two people: Beau and Chris. As 2024 came to an end, I decided to focus on improving my coding skills. For the first time ever, I participated in &lt;a href=&#34;https://adventofcode.com/&#34;&gt;Advent of Code&lt;/a&gt; and to make it even more challenging, I completed it entirely in a language that was completely new to me—Zig.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; This sparked a series of tangents, including learning RayLib, attempting to create a browser-based game, and eventually diving into Go to build an HTTP server.&lt;/p&gt;</description>
     </item>
