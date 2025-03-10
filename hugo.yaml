@@ -17,7 +17,7 @@ params:
       - name: "blog"
         url: "/posts/"
       - name: "resume"
-        url: "/austin_guevara_resume.pdf"
+        url: "/austin_resume.pdf"
 
   socialIcons:
     - name: "github"
