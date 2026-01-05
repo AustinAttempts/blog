@@ -1,0 +1,54 @@
+/* Base callout container */
+.callout {
+  display: block;
+  padding: 1rem;
+  margin: 1.25rem 0;
+  border-radius: 0.5rem;
+  background: var(--entry);
+  border-left: 4px solid var(--primary);
+}
+
+/* Header (icon + title on one line) */
+.callout-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+/* Icon */
+.callout-icon {
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
+}
+
+/* Title text */
+.callout-title {
+  display: inline-block;
+  line-height: 1;
+}
+
+/* Content */
+.callout-content > :first-child {
+  margin-top: 0;
+}
+
+/* Variants */
+.callout-info {
+  border-left-color: #3b82f6;
+}
+
+.callout-note {
+  border-left-color: #6366f1;
+}
+
+.callout-warning {
+  border-left-color: #f59e0b;
+}
+
+.callout-tip {
+  border-left-color: #10b981;
+}
