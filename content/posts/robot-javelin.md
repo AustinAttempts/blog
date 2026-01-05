@@ -4,6 +4,7 @@ draft: false
 title: 'Austin Attempts: Robot Javelin'
 author: ["Austin Guevara"]
 type: "post"
+math: true
 ---
 ## Jane Street's Robot Javelin Competition
  
@@ -27,8 +28,9 @@ There is a group of robots that compete to throw a javelin as far as possible in
 
 As stated in the rules each Robot's actions are independent of their competitor.  This means that this strategy is purely based on increasing the probability of maximizing ones own score.  Because the first throw is purely random and required, all strategies would throw the first javelin then the strategy would be whether or not they throw the javelin again or keep your first distance.  In a unifrom distribution of distances a distance of $0.5$ is the mid midpoint.  This means that a new throw has a $50\%$ chance to be less than $0.5$ and a $50\%$ chance to be greater than $0.5$.  Based on this the Robot should only ever rethrow if their is a greater than $50\%$ chance that the rethrow will improve their score.
 
-> [!NOTE]
-> This was the assumption that caused me to get the wrong answer.  The actual Nash Equilibrium strategy is to rethrow only if the first throw is less than $(\sqrt{5} - 1) \div{2} \approx 0.618034 (\phi)$.
+{{< notice info >}}
+This was the assumption that caused me to get the wrong answer.  The actual Nash Equilibrium strategy is to rethrow only if the first throw is less than $(\sqrt{5} - 1) \div{2} \approx 0.618034 (\phi)$.
+{{< /notice >}}
 
 ### Simplified Strategy
 ```
@@ -154,8 +156,10 @@ $$
 (0.25 \times 0.25) + (0.75 \times 0.625) = 0.0625 + 0.46875 = 0.53125
 $$
 
-> [!NOTE]
-> Despite having the wrong inital strategy I was very close on the strategy that Spears Robot should use.  Spears should use a threhshold equivlaent to the Nash Equilibrium strategy but only rethrow if its first throw is below $0.5$, like I assumed, and if the opponents throw is above the Nash Equilibrium threhshold of $\phi$.  However, I did not realize this also recalcualtes its inital rethrow threshold.  The new rethrow threhsold on any throw musr be updated to $(1 - \frac{\phi}{2}) \approx 0.0.690983$.
+{{< notice info >}}
+Despite having the wrong inital strategy I was very close on the strategy that Spears Robot should use.  Spears should use a threhshold equivlaent to the Nash Equilibrium strategy but only rethrow if its first throw is below $0.5$, like I assumed, and if the opponents throw is above the Nash Equilibrium threhshold of $\phi$.  However, I did not realize this also recalcualtes its inital rethrow threshold.  The new rethrow threhsold on any throw musr be updated to $(1 - \frac{\phi}{2}) \approx 0.0.690983$.
+{{< /notice >}}
+
 ### Simplified Strategy
 
 ```
@@ -237,8 +241,9 @@ $$P(\text{Win with keeping}) = P(\text{Win with rethrow})$$
 $$0.625 \times a = 0.3828125$$
 $$a = 0.6125$$
 
-> [!NOTE]
-> The correct Strategy here is similar to what I have above.  Java Lin should keep scores it would otherwise rethrow to take advantage of Spears Robot's rethrows.  However the correct range to keep is $[\frac{7}{12}, \phi]$.
+{{< notice info >}}
+he correct Strategy here is similar to what I have above.  Java Lin should keep scores it would otherwise rethrow to take advantage of Spears Robot's rethrows.  However the correct range to keep is $[\frac{7}{12}, \phi]$.
+{{< /notice >}}
 
 ### Simplified Strategy
 ```
@@ -289,8 +294,9 @@ $$
 P(\text{Win}) = \frac{10161}{20480} \approx 0.49614257812 \approx 49.61\%
 $$
 
-> [!NOTE]
-> The correct win probaility given all the new strategies should be $\frac{(229 - 60 \sqrt{5})}{192} \approx 0.4939370904 \approx 49.39\%$
+{{< notice info >}}
+The correct win probaility given all the new strategies should be $\frac{(229 - 60 \sqrt{5})}{192} \approx 0.4939370904 \approx 49.39\%$
+{{< /notice >}}
 
 # Validation through Simulation
 
