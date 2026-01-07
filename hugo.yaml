@@ -2,9 +2,10 @@ baseURL: https://austinguevara.com/
 languageCode: en-us
 title: Austin Attempts
 theme: ["PaperMod"]
+
 params:
   author: "Austin Guevara"
-  defualtTheme: auto
+  defaultTheme: auto
 
   profileMode:
     enabled: true
@@ -46,7 +47,7 @@ menu:
       weight: 2
     - name: "Search"
       url: "/search/"
-      weigth: 3
+      weight: 3
 
 markup:
   highlight:
