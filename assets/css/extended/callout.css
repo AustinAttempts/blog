@@ -52,3 +52,13 @@
 .callout-tip {
   border-left-color: #10b981;
 }
+
+/* Force Dark Mode Support for PaperMod */
+.dark .callout {
+  background: var(--entry); /* This will now correctly use the dark --entry value */
+  border-left-color: var(--primary);
+}
+
+/* If you want specific variant colors to stay bright in dark mode */
+.dark .callout-info { border-left-color: #60a5fa; }
+.dark .callout-warning { border-left-color: #fbbf24; }
