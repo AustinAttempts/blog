@@ -36,6 +36,19 @@
 <meta name="naver-site-verification" content="{{ site.Params.analytics.naver.SiteVerificationTag }}">
 {{- end }}
 
+{{- /* Dark Theme Logic */}}
+{{- if (or (eq site.Params.defaultTheme "dark") (eq site.Params.defaultTheme "auto")) }}
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+</script>
+{{- end }}
+
 {{- /* Styles */}}
 
 {{- /* includes */}}
@@ -69,9 +82,9 @@
 
 {{- if not site.Params.assets.disableFingerprinting }}
 {{- $stylesheet := $stylesheet | fingerprint }}
-<link crossorigin="anonymous" href="{{ $stylesheet.RelPermalink }}" integrity="{{ $stylesheet.Data.Integrity }}" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="{{ $stylesheet.RelPermalink }}" integrity="{{ $stylesheet.Data.Integrity }}" rel="stylesheet">
 {{- else }}
-<link crossorigin="anonymous" href="{{ $stylesheet.RelPermalink }}" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="{{ $stylesheet.RelPermalink }}" rel="stylesheet">
 {{- end }}
 
 {{- /* Search */}}
