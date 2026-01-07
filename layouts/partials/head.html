@@ -36,18 +36,39 @@
 <meta name="naver-site-verification" content="{{ site.Params.analytics.naver.SiteVerificationTag }}">
 {{- end }}
 
-{{- /* Dark Theme Logic */}}
+{{- /* 1. IMMEDIATE LOGIC: Prevents the white flash on load */}}
 {{- if (or (eq site.Params.defaultTheme "dark") (eq site.Params.defaultTheme "auto")) }}
 <script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.documentElement.setAttribute('data-theme', 'dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.documentElement.removeAttribute('data-theme');
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.documentElement.setAttribute('data-theme', 'dark');
-    }
+    (function() {
+        const theme = localStorage.getItem("pref-theme");
+        if (theme === "dark" || (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.setAttribute('data-theme', 'dark');
+            document.body && document.body.classList.add('dark');
+        }
+    })();
 </script>
 {{- end }}
+
+{{- /* 2. TOGGLE LOGIC: Handles the button click */}}
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const toggleBtn = document.getElementById("theme-toggle");
+        if (toggleBtn) {
+            toggleBtn.addEventListener("click", () => {
+                const isDark = document.documentElement.getAttribute("data-theme") === "dark";
+                if (isDark) {
+                    document.documentElement.removeAttribute("data-theme");
+                    document.body.classList.remove('dark');
+                    localStorage.setItem("pref-theme", 'light');
+                } else {
+                    document.documentElement.setAttribute("data-theme", "dark");
+                    document.body.classList.add('dark');
+                    localStorage.setItem("pref-theme", 'dark');
+                }
+            });
+        }
+    });
+</script>
 
 {{- /* Styles */}}
 

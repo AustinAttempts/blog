@@ -62,3 +62,21 @@
 /* If you want specific variant colors to stay bright in dark mode */
 .dark .callout-info { border-left-color: #60a5fa; }
 .dark .callout-warning { border-left-color: #fbbf24; }
+
+/* When in Light Mode (data-theme is NOT dark) */
+:root:not([data-theme=dark]) #moon {
+    display: none;
+}
+
+:root:not([data-theme=dark]) #sun {
+    display: block;
+}
+
+/* When in Dark Mode (data-theme IS dark) */
+:root[data-theme=dark] #sun {
+    display: none;
+}
+
+:root[data-theme=dark] #moon {
+    display: block;
+}
