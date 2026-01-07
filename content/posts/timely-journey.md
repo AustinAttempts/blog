@@ -113,8 +113,7 @@ This box has some text on it that I can barely make out. From what I can see the
 - 1998
 
 # Cross Word Analysis
-
-<img src="/imgs/timely-journey/jan-2026-timely-journey.pdf#center" alt="crossword puzzle">
+<embed src="/imgs/timely-journey/jan-2026-timely-journey.pdf#center" width="500" height="375">
 
 The Crossword puzzle seems to be the primary focus of this puzzle.  There are 2 chunks of digits; one in the top right and the other in the bottom left.  The rest of the page is an empty crossword grid.  Certain cells in the grid are colored Red and Blue just like certain digits in the chunks are colored Red and Blue.
 
@@ -123,7 +122,7 @@ The Crossword puzzle seems to be the primary focus of this puzzle.  There are 2 
 - 12 horizontal "words" comprised of 89 cells
 - 24 Red cells
 - 24 Blue cells
-- ?? total cells
+- 163 total cells with 24 overlapped cells
 
 ## Top Right Chunk Notes
 - 77 total digits
